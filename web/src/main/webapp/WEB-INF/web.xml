@@ -8,6 +8,7 @@
     <servlet>
         <servlet-name>dispatcherServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
@@ -15,14 +16,16 @@
     </servlet-mapping>
 
 
+ <!--   &lt;!&ndash;SPRING CONFIG&ndash;&gt;
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>WEB-INF/dispatcherServlet-servlet.xml</param-value>
-    </context-param>
+    </context-param>-->
 
+    <!--JNDI RESOURCES-->
     <resource-ref>
         <res-ref-name>jdbc_local_tutorial</res-ref-name>
         <res-type>javax.sql.DataSource</res-type>
