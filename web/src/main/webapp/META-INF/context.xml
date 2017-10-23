@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+    <ResourceLink
+            name="jdbc_local_tutorial"
+            global="jdbc_global_tutorial"
+            type="javax.sql.DataSource"
+    />
+
+</Context>
