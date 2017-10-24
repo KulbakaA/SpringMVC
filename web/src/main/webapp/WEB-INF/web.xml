@@ -16,15 +16,6 @@
     </servlet-mapping>
 
 
- <!--   &lt;!&ndash;SPRING CONFIG&ndash;&gt;
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
-    <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>WEB-INF/dispatcherServlet-servlet.xml</param-value>
-    </context-param>-->
-
     <!--JNDI RESOURCES-->
     <resource-ref>
         <res-ref-name>jdbc_local_tutorial</res-ref-name>
