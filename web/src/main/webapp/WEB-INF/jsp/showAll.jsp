@@ -10,6 +10,9 @@
 <html>
 <head>
     <title>Users</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script ></script>
 </head>
 <body>
 <table style="border: 1px solid black">
@@ -23,5 +26,15 @@
 
     </c:forEach>
 </table>
+<div class="ui-widget">
+    <input id="userName"/>
+</div>
+
+<script>
+
+</script>
+
+
 </body>
+
 </html>

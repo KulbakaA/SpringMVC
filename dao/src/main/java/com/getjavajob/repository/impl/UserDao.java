@@ -31,6 +31,7 @@ public class UserDao implements IUserDao {
 
 	@Override
 	public List<User> fetchAll() {
+		System.out.println("hello");
 		List<User> listOfAllExistUsers = new ArrayList<>();
 		try (Connection connection = this.dataSource.getConnection()) {
 			setAutoCommitAndTransactionIsolationLevel(connection);
