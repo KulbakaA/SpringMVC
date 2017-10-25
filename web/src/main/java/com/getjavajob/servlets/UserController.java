@@ -42,6 +42,7 @@ public class UserController {
     @RequestMapping(value = "/showUsersFilter", method = RequestMethod.GET)
     @ResponseBody
     public List<User> showAllUsersWithFilter(final @RequestParam("filter") String filter) {
+
         System.out.println("filter = " + filter);
 
         List<User> users = this.service.fetchAll();
